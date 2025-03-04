@@ -1,4 +1,4 @@
-FROM elixir:1.15-otp-25-alpine
+FROM public.ecr.aws/docker/library/elixir:1.15-otp-25-alpine 
 
 COPY . .
 
